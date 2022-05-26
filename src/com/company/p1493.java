@@ -1,6 +1,6 @@
 package com.company;
 
-import com.company.RealTest.Hobbies;
+import com.company.코테문제.Hobbies;
 
 import java.util.*;
 
