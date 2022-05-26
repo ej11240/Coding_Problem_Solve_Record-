@@ -1,7 +1,8 @@
 package com.company;
 
+import com.company.RealTest.Hobbies;
+
 import java.util.*;
-import java.io.*;
 
 public class p1493{
 

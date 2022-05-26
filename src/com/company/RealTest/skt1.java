@@ -1,7 +1,4 @@
-package com.company.코테문제;
-
-
-import java.util.*;
+package com.company.RealTest;
 
 
 public class skt1 {

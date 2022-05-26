@@ -1,4 +1,4 @@
-package com.company.코테문제.트레블월렛코테;
+package com.company.RealTest.트레블월렛코테;
 
 import java.io.*;
 import java.util.*;

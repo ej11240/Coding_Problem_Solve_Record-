@@ -1,4 +1,4 @@
-package com.company.코테문제;
+package com.company.RealTest;
 
 public class sk1 {
 

@@ -1,29 +1,32 @@
-package com.company.코테문제;
-import java.io.*;
+package com.company.RealTest;
 import java.util.*;
 
-public class test4 {
+public class test3 {
     public static long target;
     public static long min;
     public static int endPoint;
-    public static boolean[][] visited ;
+
     public static void main(String[] args){
-        int[] q1 =new int[300000];
-        int[] q2 =new int[300000];
-        for( int i =0; i<300000; i++){
-            q1[i]=(int)(Math.random() * 1000000000);
-        }
-        for( int i =0; i<300000; i++){
-            q2[i]=(int)(Math.random() * 1000000000);
-        }
+//        int[] q1 =new int[300000];
+//        int[] q2 =new int[300000];
+//        for( int i =0; i<300000; i++){
+//            q1[i]=(int)(Math.random() * 1000000000);
+//        }
+//        for( int i =0; i<300000; i++){
+//            q2[i]=(int)(Math.random() * 1000000000);
+//        }
+                int[] q1 ={3, 2, 7, 2};
+        int[] q2 = {4, 6, 5, 1};
         solution(q1,q2);
     }
+    public static boolean[][] visited ;
     public static int solution(int[] queue1, int[] queue2) {
         int answer = -2;
         target =0;
         endPoint = queue1.length;
         min =Long.MAX_VALUE;
-        visited = new boolean[queue1.length-1][queue1.length-1];
+        visited = new boolean[2*queue1.length][2*queue1.length];
+
 
         for( int i: queue1) {
             target+=i;

@@ -1,7 +1,4 @@
-package com.company.코테문제;
-
-import java.util.LinkedList;
-import java.util.List;
+package com.company.RealTest;
 
 public class skt4 {
 //    static List<Integer> result = new LinkedList<>();

@@ -1,4 +1,4 @@
-package com.company.코테문제;
+package com.company.RealTest;
 
 import java.util.ArrayList;
 import java.util.Collections;

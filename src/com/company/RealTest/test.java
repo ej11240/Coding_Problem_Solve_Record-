@@ -1,7 +1,5 @@
-package com.company.코테문제;
-import java.io.*;
+package com.company.RealTest;
 import java.util.*;
-import java.math.*;
 
 public class test {
     public static void main(String[] args){
