@@ -8,7 +8,7 @@ import java.util.*;
 public class 두_배열의_합_2143 {
     public static int[] a;
     public static int[] b;
-    public static void main(String[] args)throws IOException {
+    public static void main(String[] args) throws IOException {
         int t,n, m;
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         t = Integer.parseInt(bufferedReader.readLine());

@@ -8,7 +8,7 @@ import java.util.*;
 public class 강의실_배정_11000 {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader( new InputStreamReader( System.in));
-
+        System.out.println();
         int N = Integer.parseInt(bufferedReader.readLine());
         Lecture[] lectures = new Lecture[N];
         for (int i = 0; i < N; i++) {
