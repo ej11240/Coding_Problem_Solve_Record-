@@ -7,7 +7,7 @@ import java.io.InputStreamReader;
 public class p1890_점프 {
     static int n ;
     static int[][] arr;
-    static int[][] dp;
+    static long[][] dp;
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
         n = Integer.parseInt(bufferedReader.readLine());
@@ -19,7 +19,7 @@ public class p1890_점프 {
             }
         }
 
-        dp = new int[n][n];
+        dp = new long[n][n];
         dp[0][0] = 1;
         for (int i =0; i<n; i++){
             for (int j=0; j<n; j++){
@@ -34,4 +34,3 @@ public class p1890_점프 {
         System.out.println(dp[n-1][n-1]);
     }
 }
-
