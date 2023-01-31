@@ -15,5 +15,7 @@ public class p2493_탑 {
         for (int i=0; i<=n; i++){
              arr[i] = Integer.parseInt(t[i]);
         }
+
+
     }
 }
