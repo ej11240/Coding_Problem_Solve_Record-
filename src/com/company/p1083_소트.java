@@ -15,8 +15,8 @@ public class p1083_소트 {
             arr[i] = Integer.parseInt(t[i]);
 
         int s = Integer.parseInt(br.readLine());
-
-        for (int i=0; i<n-1 &&s>0; i++){
+        int i=0;
+        while (i<n-1 && s>0 ){
             int count =0;
             int num_max = arr[i];
             int idx_max = i;
@@ -40,8 +40,9 @@ public class p1083_소트 {
             }
             s -= idx_max-i;
 
+            i++;
         }
-        for (int i=0; i<n; i++){
+        for ( i=0; i<n; i++){
             System.out.print(arr[i]+" ");
         }
     }
